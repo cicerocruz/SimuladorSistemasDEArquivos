@@ -66,12 +66,12 @@ Abra o Prompt de comando e execute os comandos dentro da pasta C:\moss\filesys>
 java mkfs filesys.dat 256 16
 
 #### Saida Esperada
-block_size: 256
-blocks: 16
-super_blocks: 1
-free_list_blocks: 1
-inode_blocks: 3
-data_blocks: 11
+block_size: 256      <br>
+blocks: 16           <br>
+super_blocks: 1      <br>
+free_list_blocks: 1  <br>
+inode_blocks: 3      <br>
+data_blocks: 11      <br>
 block_total: 16
 
 #### Execute o Comando
@@ -81,10 +81,10 @@ java mkdir /root
 java ls /
 
 #### Saida Esperada
-/:
-    0         48 .
-    0         48 ..
-    1         32 root
+/: <br>
+    0         48 .      <br>
+    0         48 ..     <br>
+    1         32 root   <br>
 total files: 3
 
 #### Execute o Comando
