@@ -97,21 +97,22 @@ Olá Mundo!
 java ls /root
 
 #### Saida Esperada
-/root:
-    1         48 .
-    0         48 ..
-    2        219 t.lis
+/root:                                 <br>
+    1         48 .                     <br>
+    0         48 ..                    <br>
+    2        219 t.lis                 <br>
 total files: 3
 
 #### Execute o Comando
 java cat /root/t.lis
 
 #### Saida Esperada
-BitBlock.java
-Block.java
-DirectoryEntry.java
-FileDescriptor.java
-FileSystem.java
+BitBlock.java         <br>
+Block.java            <br>
+DirectoryEntry.java   <br>
+.                     <br>
+.                     <br>
+.                     <br>
 
 ## 📌 Conceitos
 
