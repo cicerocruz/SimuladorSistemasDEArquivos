@@ -50,8 +50,70 @@ Este projeto foi desenvolvido com as seguintes tecnologias:
 
 - Java JDK Instalado na Máquina
 
-## 💻 Projeto
+## 💻 Instalando e Executando o Simulador
+Crie o diretório C:\moss\filesys>
+Salve os arquivos deste repositório neste diretório
 
+### Execute os Comandos para compilar o projeto
+
+Abra o Prompt de comando e execute os comandos dentro da pasta C:\moss\filesys> 
+set CLASSPATH=.
+javac *.java
+
+### Teste o Simulador
+
+Abra o Prompt de comando e execute os comandos dentro da pasta C:\moss\filesys> 
+
+#### Execute o Comando
+java mkfs filesys.dat 256 16
+
+#### Saida Esperada
+block_size: 256
+blocks: 16
+super_blocks: 1
+free_list_blocks: 1
+inode_blocks: 3
+data_blocks: 11
+block_total: 16
+
+#### Execute o Comando
+java mkdir /root
+
+#### Execute o Comando
+java ls /
+
+#### Saida Esperada
+/:
+    0         48 .
+    0         48 ..
+    1         32 root
+total files: 3
+
+#### Execute o Comando
+echo "Olá Mundo!" | java tee /root/t.lis
+
+#### Saida Esperada
+Olá Mundo!
+
+#### Execute o Comando
+java ls /root
+
+#### Saida Esperada
+/root:
+    1         48 .
+    0         48 ..
+    2        219 t.lis
+total files: 3
+
+#### Execute o Comando
+java cat /root/t.lis
+
+#### Saida Esperada
+BitBlock.java
+Block.java
+DirectoryEntry.java
+FileDescriptor.java
+FileSystem.java
 
 ## 📌 Conceitos
 
