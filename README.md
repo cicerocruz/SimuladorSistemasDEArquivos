@@ -1,9 +1,9 @@
 <h1 align="center">
-    <img alt="BeTheHero" title="#BeTheHero" src=".github/logo.svg" width="250px" />
+    <img alt="moss" title="#moss" src=".github/logo.svg" width="250px" />
 </h1>
 
 <h4 align="center"> 
-	🚀 Semana OmniStack 11.0 
+	moss (Modern Operating Systems Simulators)
 </h4>
 <p align="center">
   <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/cicerocruz/SimuladorSistemasDEArquivos?color=%23FC943D">
