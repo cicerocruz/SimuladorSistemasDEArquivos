@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img alt="moss" title="#moss" src=".github/logo.svg" width="250px" />
+    <img alt="moss" title="#moss" src=".github/logo.gif" width="250px" />
 </h1>
 
 <h4 align="center"> 
