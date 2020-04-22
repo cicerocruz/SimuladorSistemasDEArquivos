@@ -44,8 +44,6 @@ Este projeto foi desenvolvido com as seguintes tecnologias:
 
 - [Java](https://nodejs.org/en/) [💜]()
 
-**[⬆ voltar ao topo](#Índice)**
-
 ## 🔧 Requisitos
 
 - Java JDK Instalado na Máquina
@@ -142,3 +140,4 @@ Você deveria ter recebido uma cópia da Licença Pública Geral GNU junto com e
 
 Este projeto está sob a licença GNU, fazendo parte da Disciplina de Sistemas Operacionais
 
+**[⬆ voltar ao topo](#Índice)**
